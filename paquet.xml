@@ -5,12 +5,8 @@
 	etat="dev"
 	compatibilite="[3.0.7;3.0.*]"
 	logo="prive/themes/spip/images/acquaviva-64.png"
-	documentation=""
+	schema="1.0.0"
 >
-	<!--
-		Paquet généré le 2013-04-09 09:09:25
-		(Vous pouvez bien entendu supprimer ces commentaires) 
-	-->
 
 	<nom>Acquaviva</nom>
 
@@ -37,7 +33,15 @@
 		* parents d'onglets... configuration, plugins, statistiques, ... 
 		<onglet nom="acquaviva" titre="acquaviva:acquaviva_titre" parent="configuration" icone="images/acquaviva-24.png" />
 	-->
+	
+	 <necessite nom="cextras" compatibilite="[3.2.4;[" />
 
 
+     <pipeline nom="declarer_champs_extras" inclure="base/acquaviva.php" />
 
+	<pipeline nom="formulaire_charger" inclure="acquaviva_pipelines.php" />
+	<pipeline nom="formulaire_verifier" inclure="acquaviva_pipelines.php" />
+	<pipeline nom="formulaire_traiter" inclure="acquaviva_pipelines.php" />	
+	<pipeline nom="recuperer_fond" inclure="acquaviva_pipelines.php" />
+	
 </paquet>
