@@ -12,11 +12,11 @@ function acquaviva_declarer_champs_extras($champs = array()) {
             'restrictions'=>array('voir' => array('auteur' => '')),
       ),
     ),
-  'mobil' => array(
+  'mobile' => array(
       'saisie' => 'input',//Type du champ (voir plugin Saisies)
       'options' => array(
-            'nom' => 'mobil', 
-            'label' => _T('acquaviva:mobil'), 
+            'nom' => 'mobile', 
+            'label' => _T('acquaviva:mobile'), 
             'sql' => "varchar(30) NOT NULL DEFAULT ''",
             'restrictions'=>array('voir' => array('auteur' => '')),
       ),

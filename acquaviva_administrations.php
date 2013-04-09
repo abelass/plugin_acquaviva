@@ -2,7 +2,7 @@
 if (!defined("_ECRIRE_INC_VERSION")) return;
 
 include_spip('inc/cextras');
-include_spip('base/titrecourt');
+include_spip('base/acquaviva');
     
 function acquaviva_upgrade($nom_meta_base_version,$version_cible) {
 
