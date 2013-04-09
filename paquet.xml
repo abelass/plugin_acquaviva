@@ -34,8 +34,8 @@
 		<onglet nom="acquaviva" titre="acquaviva:acquaviva_titre" parent="configuration" icone="images/acquaviva-24.png" />
 	-->
 	
-	 <necessite nom="cextras" compatibilite="[3.2.4;[" />
-
+	<necessite nom="cextras" compatibilite="[3.2.4;[" />
+	<utilise nom="notifavancees" compatibilite="[0.2.1;]" /> 		
 
      <pipeline nom="declarer_champs_extras" inclure="base/acquaviva.php" />
 
