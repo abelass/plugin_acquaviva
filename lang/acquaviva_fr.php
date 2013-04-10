@@ -7,6 +7,12 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 
 	// A
 	'acquaviva_titre' => 'Acquaviva',
+	
+    //M
+    'mobile'=>'Mobile',	
+    
+    //T
+    'telephone'=>'Téléphone',
 );
 
 ?>
