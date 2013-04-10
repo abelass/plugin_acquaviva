@@ -35,6 +35,8 @@
 	-->
 	
 	<necessite nom="cextras" compatibilite="[3.2.4;[" />
+	<necessite nom="shop_prix" compatibilite="[1.4;[" />
+	<necessite nom="menuder" compatibilite="[2.2.0;[" />		
 	<utilise nom="notifavancees" compatibilite="[0.2.1;]" /> 		
 
      <pipeline nom="declarer_champs_extras" inclure="base/acquaviva.php" />
